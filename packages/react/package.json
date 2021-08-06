@@ -1,0 +1,28 @@
+{
+  "name": "@pansy/react-watermark",
+  "version": "3.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "watermark",
+    "component",
+    "react-watermark"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "dependencies": {
+    "@pansy/watermark": "^2.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}

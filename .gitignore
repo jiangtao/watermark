@@ -12,8 +12,6 @@ node_modules
 package-lock.json
 
 # build output
-es
-lib
 dist
 
 # IDE
@@ -29,3 +27,5 @@ dist
 # Local
 local.config.ts
 yarn.lock
+
+default-tsconfig.json

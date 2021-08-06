@@ -1,0 +1,21 @@
+{
+  "name": "@pansy/vue-watermark",
+  "version": "3.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.5.17"
+  },
+  "dependencies": {
+    "@pansy/watermark": "^2.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}

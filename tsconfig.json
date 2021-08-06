@@ -1,27 +1,30 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
-    "sourceMap": false,
-    "baseUrl": ".",
-    "allowJs": false,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true,
-    "experimentalDecorators": true,
+    "baseUrl": "./",
     "strict": true,
-    "jsx": "react-jsx",
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "outDir": "dist",
-    "declaration": true
+    "alwaysStrict": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "noEmit": true,
+    "jsx": "react",
+    "paths": {
+      "@pansy/watermark": [
+        "./packages/core/src/index.ts"
+      ],
+      "@pansy/react-watermark": [
+        "./packages/react/src/index.ts"
+      ]
+    },
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
-    "node_modules",
-    "dist",
-    "*.test.ts"
+    "node_modules"
   ]
 }
